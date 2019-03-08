@@ -14,6 +14,9 @@ The set of available parameters is described in the [Cloud Posse readme](https:/
 
 The autoscale group is configured in /autoscale_group/main.tf.  Available parameters are described in the [Terraform AWS Autoscaling readme](https://github.com/terraform-aws-modules/terraform-aws-autoscaling/blob/master/README.md)
 
+
+With the AWS Elasticsearch Service, CloudWatch dashboards and monitoring are built in, with [configurable alarms/alerts](https://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/cloudwatch-alarms.html). 
+
 ## Access to Kibana
 
 With the ElasticSearch cluster setup for VPC access (as opposed to public access), Kibana is only directly accessible from
